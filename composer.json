@@ -1,0 +1,25 @@
+{
+    "name": "suxiaolin/algorithms",
+    "description": "Traditional computer science algorithms and data structures implemented in PHP",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "苏小林",
+            "email": "dear.lin@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "suxiaolin\\algorithms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
